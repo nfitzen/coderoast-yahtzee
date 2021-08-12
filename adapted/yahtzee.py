@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# Copyright (C) 2021 ArjanCodes <https://github.com/ArjanCodes>
+# Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
+#
+# SPDX-License-Identifier: MIT
+
 import os
 import random
 import re
@@ -58,7 +64,7 @@ class YahtzeeGame:
                     reroll = re.sub('[^0-9,]', '', reroll)  # Remove non-numerals
                     reroll = reroll.split(",")  # Turn string into list
                     reroll = list(map(int, reroll))  # Turn strings in list to int
-                
+
                 if not reroll or 0 in reroll:
                     return []
                 else:
@@ -69,7 +75,7 @@ class YahtzeeGame:
                 print("Please try again")
             except IndexError as i:
                 print(i)
-    
+
     def select_scoring(self):
         self.show_scoreboard_points(self.hand)
         while True:

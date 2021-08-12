@@ -1,3 +1,9 @@
+<!--
+Copyright (C) 2021 ArjanCodes <https://github.com/ArjanCodes>
+
+SPDX-License-Identifier: MIT
+-->
+
 # coderoast-yahtzee
 
 This repository contains both the original and adapted code for the Yahtzee Code Roast, a series where I refactor existing code projects with the aim to improve the design. You can also find the original code here: https://github.com/Endemoniada/yahtzee.

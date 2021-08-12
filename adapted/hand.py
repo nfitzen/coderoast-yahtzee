@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# Copyright (C) 2021 ArjanCodes <https://github.com/ArjanCodes>
+# Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
+#
+# SPDX-License-Identifier: MIT
+
 import random
 
 
@@ -47,7 +53,7 @@ class Hand:
     def set_faces(self, values):
         for idx, val in enumerate(values):
             self.hand[idx].set_face(val)
-    
+
     def count(self, i):
         return self.get_hand().count(i)
 

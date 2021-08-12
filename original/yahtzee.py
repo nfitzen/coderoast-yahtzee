@@ -1,4 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+# Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
+#
+# SPDX-License-Identifier: MIT
 
 """Yahtzee, the board game!
 

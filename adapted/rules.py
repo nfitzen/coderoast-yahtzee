@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# Copyright (C) 2021 ArjanCodes <https://github.com/ArjanCodes>
+# Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
+#
+# SPDX-License-Identifier: MIT
+
 from abc import ABC, abstractmethod
 
 from hand import Hand

@@ -1,3 +1,9 @@
+<!--
+Copyright (C) 2018 Endemoniada
+
+SPDX-License-Identifier: MIT
+-->
+
 # Yahtzee
 A simple console Yahtzee game
 

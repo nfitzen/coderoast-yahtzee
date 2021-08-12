@@ -1,3 +1,9 @@
+#!/usr/bin/env python3
+# Copyright (C) 2021 ArjanCodes <https://github.com/ArjanCodes>
+# Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
+#
+# SPDX-License-Identifier: MIT
+
 from hand import Hand
 from rules import Rule, SameValueRule
 
@@ -73,7 +79,7 @@ class Straight(Rule):
         # verify that the list has no duplicates
         if len(list(set(l))) != len(l):
             return False
-        # sum of consecutive n numbers 1...n = n * (n+1) / 2 
+        # sum of consecutive n numbers 1...n = n * (n+1) / 2
         consecutive_sum = (min(l) + max(l)) * (max(l) - min(l) + 1) / 2
         return sum(l) == consecutive_sum
 
