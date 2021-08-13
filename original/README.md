@@ -1,5 +1,5 @@
 <!--
-Copyright (C) 2018 Endemoniada
+Copyright (C) 2018 Endemoniada <https://github.com/Endemoniada>
 
 SPDX-License-Identifier: MIT
 -->
